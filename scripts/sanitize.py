@@ -7,8 +7,12 @@ def sanitize(input_fname):
     dtype = 'int16'
     if str(input_fname).endswith('_mask.nii.gz') or str(input_fname).endswith('_dseg.nii.gz'):
         dtype = 'uint8'
+
+    data = im.get_data()
+    if dtype == 'int16':
+        data = 1e4 * (data / data.max())
     hdr.set_data_dtype(dtype)
-    nii = nb.Nifti1Image(im.get_data().astype(dtype), im.affine, hdr)
+    nii = nb.Nifti1Image(data.astype(dtype), im.affine, hdr)
 
     sform = nii.header.get_sform()
     nii.header.set_sform(sform, 4)
