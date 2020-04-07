@@ -1,5 +1,4 @@
 {
-  "Acknowledgements": "Curated and added to TemplateFlow by Ciric R and Esteban O",
   "Authors": [
     "Grabner G",
     "Janke AL",
@@ -9,7 +8,9 @@
     "Collins DL"
   ],
   "BIDSVersion": "1.1.0",
-  "HowToAcknowledge": "Reference the following entries from the ReferencesAndLinks field: {1}",
+  "Curators": [
+    "iric R and Esteban O"
+  ],
   "Identifier": "MNI152NLin6Sym",
   "License": "See LICENSE file",
   "Name": "ICBM 152 non-linear 6th Generation Symmetric Average Brain Stereotaxic Registration Model",
