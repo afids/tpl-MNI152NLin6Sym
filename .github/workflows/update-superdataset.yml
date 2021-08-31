@@ -8,10 +8,8 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
-
+  update_superdataset:
     runs-on: ubuntu-latest
-
     steps:
       - name: "Update TemplateFlow's superdataset"
         uses: templateflow/actions-template@main
