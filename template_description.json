@@ -20,6 +20,7 @@
     "https://doi.org/10.1007/11866763_8",
     "https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases"
   ],
+  "Species": "Homo sapiens",
   "TemplateFlowVersion": "1.0.0",
   "res": {
     "01": {
