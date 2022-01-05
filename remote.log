@@ -1,1 +1,2 @@
 6c24b4dc-99e8-404d-a0c3-9491860d8226 bucket=templateflow datacenter=US encryption=none exporttree=yes fileprefix=tpl-MNI152NLin6Sym/ host=s3.amazonaws.com name=public-s3 port=80 public=yes storageclass=STANDARD type=S3 timestamp=1641381160.572553s
+80461790-3292-49f8-9e35-0fa8727563cd autoenable=true bucket=templateflow datacenter=US encryption=none exporttree=yes fileprefix=tpl-MNI152NLin6Sym/ host=s3.amazonaws.com name=s3 port=80 public=yes publicurl=https://templateflow.s3.amazonaws.com/ storageclass=STANDARD type=S3 versioning=yes timestamp=1641385451.152716s
